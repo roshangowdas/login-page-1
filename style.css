@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+   color: whitesmoke;
+}
+
+body{
+    background: url("background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 450px;
+    width: 350px;
+    border: 2px solid rgba(255, 255, 255, 0.363);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.089);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.363)
+    0 0 15px rgba(255, 255, 255, 0.363)
+    0 0 30px rgba(255, 255, 255, 0.363);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .form-box h2{
+    text-align: center;
+}
+
+.form-box .input-box{
+    margin: 35px 0;
+    width: 250px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.363);
+    position: relative;
+
+}
+
+.form-box .input-box input{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.742);
+}
+
+.form-box .input-box label{
+    font-weight: 400;
+    position: absolute;
+    left: 70%;
+    transform: translateY(-50%);
+}
+
+
+.forgot-section {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.forgot-section a{
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.forgot-section a:hover{
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px ;
+    background-color: rgba(0, 0, 0, 0.292);
+    border: none;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.605);
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.account-creation a{
+    margin-left: 20px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.account-creation a:hover{
+    color: rgba(0, 0, 0, 0.534);
+}
